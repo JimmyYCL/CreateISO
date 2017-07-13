@@ -39,10 +39,7 @@ namespace CreateISO
             myProcess.StartInfo.UseShellExecute = false;
             myProcess.StartInfo.RedirectStandardOutput = true;
             myProcess.StartInfo.RedirectStandardInput = true;
-
-            myProcess.Start();
-
-            
+           
             try
             {
                 myProcess.Start();
